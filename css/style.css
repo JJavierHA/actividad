@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(31, 31, 31);
+}
+
+.cardJ{
+    max-width: 300px;
+    height: 500px;
+    background: rgb(255, 255, 255);
+    margin: 50px auto 0px;
+    border-radius: 5%;
+    box-shadow: 7px 14px 30px black;
+}
+
+#imgJ{
+    height: auto;
+    width: 300px;
+    border-radius: 5% 5% 0px 0px;
+}
+
+#contJ{
+    text-align: center;
+    margin-top: 0px;
+}
+
+#contJ h2{
+    font-size: 16px;
+    margin: 30px 0 0 0;
+    color: rgb(231, 76, 4);
+}
+
+#contJ h1{
+    font-size: 24px;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+}
+
+#contJ p{
+    font-size: 16px;
+    margin: 22px 22px 55px 22px;
+    color: rgb(26, 26, 26);
+}
+
+#footJ{
+    background-color: rgb(231, 76, 4);
+    height: 70px;
+    border-radius: 0 0 10px 10px;
+}
+
+#footJ ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+    height: 70px;
+}
+
+#footJ ul li{
+    height: 70px;
+    float: left;
+    width: 100px;
+    text-align: center;
+}
+#footJ ul li h1{
+    margin: 15px 0px 0px 0px;
+    font-size: 20px;
+    color: white;
+}
+#footJ ul li h1 sup{
+    font-size: 10px;
+    color: white;
+}
+#footJ ul li h2{
+    margin: 0px;
+    font-size: 10px;
+    color: white;
+}
