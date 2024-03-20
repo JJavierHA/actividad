@@ -4,5 +4,5 @@
 <p><i>Nota:</i> trabaja sobre la misma hoja de estilo sin afectar el diseño de los demas. La imagenes de los contenedores son de referencia, coloca la imagen de tu preferencia.</p>
 <br>
 <p>Ingresa tu nombre aqui, colocando adema el color del contenedor que seleccionaste</p>
-
 <h1>Samantha - Rosado</h1>
+<h1>Javier - naranja</h1>
