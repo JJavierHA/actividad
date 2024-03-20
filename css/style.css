@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(31, 31, 31);
 }
@@ -71,5 +77,88 @@ body{
 #footJ ul li h2{
     margin: 0px;
     font-size: 10px;
+    color: white;
+}
+
+.base{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.Rosa{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /*border: 1px solid black;*/
+}
+
+.contenido{
+    position: relative;
+    width: 280px;
+    height: 453px;
+    background: white;
+    /*border: 1px solid black;*/
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(255, 255, 255);
+    text-align: center;
+}
+
+.contenido img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.contenido h4{
+    margin-top: 25px;
+    color: rgb(255, 73, 103);
+}
+
+.contenido h1{
+    margin-bottom: 25px;
+}
+
+.contenido p{
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 12px;
+}
+
+footer{
+    width: 100%;
+    height: 70px;
+    background: rgb(228, 20, 89);
+    border-end-end-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.basef{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.contenidof{
+    position: relative;
+    padding-top: 15px;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenidof h3{
+    color: white;
+    font-size: 18px;
+}
+
+.contenidof sup{
+    font-size: 10px;
+}
+
+.contenidof p{
+    padding-bottom: 0;
     color: white;
 }
