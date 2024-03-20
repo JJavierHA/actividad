@@ -88,7 +88,7 @@ body{
 
 .Rosa{
     align-items: center;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     /*border: 1px solid black;*/
 }
@@ -144,14 +144,15 @@ footer{
 .contenidof{
     position: relative;
     padding-top: 15px;
-    margin: 5px;
+    /*margin: 5px;*/
     text-align: center;
     justify-content: center;
+    width: 93px;
 }
 
 .contenidof h3{
     color: white;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .contenidof sup{
